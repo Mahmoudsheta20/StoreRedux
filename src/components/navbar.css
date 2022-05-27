@@ -1,0 +1,39 @@
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0 40px;
+    background-color: black;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_bar h2 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.nav_bg svg {
+    font-size: 22px;
+}
+
+.nav_bg span {
+    background-color: #abef07;
+    padding: 1px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.nav_bg {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
